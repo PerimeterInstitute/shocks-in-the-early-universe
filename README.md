@@ -14,7 +14,7 @@ Here is a list of movies:
 This list has numbers instead of bullets
 
 1. Uno
-2. Dos
-3. Tres
+1. Dos
+1. Tres
 
-Here is a copyright statement.
+Here could be a copyright statement.
