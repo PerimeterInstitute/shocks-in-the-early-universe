@@ -12,6 +12,7 @@ Here is a list of movies:
 ## Another Subsection
 
 This list has numbers instead of bullets
+
 1. Uno
 2. Dos
 3. Tres
