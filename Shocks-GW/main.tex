@@ -1,0 +1,127 @@
+\documentclass{nature}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{natbib}
+\usepackage{color}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{tabu}
+\usepackage{sansmath}
+
+
+\graphicspath{{images/}{./}}
+\newcommand{\apj}{Astrophysical Journal}
+\newcommand{\mnras}{Monthly Notices of Royal Astronomical Society}
+\newcommand{\apjl}{Astrophysical Journal Letters}
+\newcommand{\pasj}{Publications of the Astronomical Society of Japan}
+\newcommand{\aap}{Astronomy \& Astrophysics}
+\newcommand{\aaps}{Astronomy and Astrophysics Supplement}
+\newcommand{\nat}{Nature}
+\newcommand{\aj}{Astronomical Journal}
+\newcommand{\aplett}{Astrophysics Letters}
+\newcommand{\araa}{Annual Review of Astron and Astrophys}
+
+
+
+\newcommand{\red}{\textcolor{red}}
+\newcommand{\blue}{\textcolor{blue}}
+\newcommand{\green}{\textcolor{green}}
+
+\defbibheading{subbibliography}{%
+  \section*{}}
+
+\let\cite\autocite
+
+\addbibresource{frb.bib}
+
+
+\title{Gravitational wave window into the early universe}
+
+
+% The authors and affiliations lists are created by the python script
+% authors.py and the data in author_data.py (in this repository).  Do not edit either
+% list here.  Edit script and rerun `python authors.py` on the command line.
+% In particular, the author list and author list ordering can be adjusted in
+% the authors.py script by modifying a variable.
+\author{
+    {Ue-Li~Pen}$^{14,2,15}$,
+    \&
+    {Neil Turok}$^{16}$
+    }
+
+\begin{document}
+
+\maketitle
+
+\begin{affiliations}
+    \item{Canadian Institute for Theoretical Astrophysics, 60 St George St, Toronto, ON, M5S 3H8, Canada}
+    \item{Canadian Institute for Advanced Research, program in
+        cosmology and gravitation}
+    \item{Dunlap Institute for Astronomy \& Astrophysics, University of Toronto, 50 St George St, Toronto, ON, M5S 3H4, Canada}
+    \item{Perimeter Institute, 31 Caroline St, Waterloo, Canada}
+\end{affiliations}
+
+
+
+
+% Throughout we need to figure out tense: past tense (burst happened in 2011
+% and is over) or present ("the burst has RM=..."). -KM
+
+% Magnetars: starquakes vs flares vs crust disruptions? -KM
+
+\begin{abstract}
+
+We present a new probe of the very early universe through
+gravitational waves generated from shock waves.  This
+effect is able to constrain the proposed formation of primordial
+black holes.
+
+\end{abstract}
+
+
+
+
+
+\printbibliography[segment=\therefsegment,check=onlynew,heading=subbibliography]
+
+
+\begin{addendum}
+    \item
+        %\red{Acknowledge hippo}
+        %
+        %
+        %
+        %
+        %
+        %
+        Computations were performed on the GPC supercomputer at the SciNet HPC
+        Consortium.
+        %
+    \item[Author Contributions]
+        %
+        %
+    \item[Competing Interests] The authors declare that they have no competing
+        financial interests.
+    \item[Correspondence] Correspondence and requests for
+        materials should be addressed to U.~P. (email: pen@cita.utoronto.ca).
+\end{addendum}
+
+
+\clearpage
+%\input{figures}
+\clearpage
+
+%\input{methods}
+
+\printbibliography[segment=\therefsegment,check=onlynew,heading=subbibliography]
+
+
+\clearpage
+%\input{extended_data}
+\clearpage
+
+
+\end{document}
+
+
