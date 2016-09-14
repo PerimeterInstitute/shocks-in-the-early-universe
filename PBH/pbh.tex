@@ -1,40 +1,39 @@
-\documentclass[aps,showpacs,twocolumn,floats,prd,superscriptaddress,nofootinbib]{revtex4} 
-\usepackage{graphicx,amsmath,amssymb,amstext}
-\usepackage{amssymb,amsbsy,amsfonts,amsthm,color}
+\documentclass{nature}
+\usepackage{amsmath,amssymb,graphicx,hyperref} 
 
 \usepackage{epsfig}
 %\usepackage{showkeys}
-\usepackage{graphicx}
 \usepackage{subfigure}
 
 \graphicspath{{Figures/}}
 
-\begin{document}
 
 \title{Shocks and GW from PBH formation}
 
 
-\author{Ue-Li Pen}
-\email{pen@cita.utoronto.ca}
-\affiliation{Canadian Institute of Theoretical Astrophysics, 60 St George St, Toronto, ON M5S 3H8, Canada.}
-\affiliation{Canadian Institute for Advanced Research, CIFAR program
-  in Gravitation and Cosmology.}
-\affiliation{Dunlap Institute for Astronomy \& Astrophysics, University of Toronto, AB 120-50 St. George Street, Toronto, ON M5S 3H4, Canada.}
-\affiliation{Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
+\author{Ue-Li Pen, Neil Turok}
+%\email{pen@cita.utoronto.ca}
+\begin{document}
+\maketitle
 
-\author{Neil Turok}
-\email{neil@perimeterinstitute.ca}
-\affiliation{Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
+\begin{affiliations}
+\footnotesize{
+\item {Canadian Institute of Theoretical Astrophysics, 60 St George St, Toronto, ON M5S 3H8, Canada.}
+\item {Canadian Institute for Advanced Research, CIFAR program
+  in Gravitation and Cosmology.}
+\item {Dunlap Institute for Astronomy \& Astrophysics, University of Toronto, AB 120-50 St. George Street, Toronto, ON M5S 3H4, Canada.}
+\item {Perimeter Institute of Theoretical Physics, 31 Caroline Street North, Waterloo, ON N2L 2Y5, Canada.}
+}
+\end{affiliations}
 
 \begin{abstract}
 We discuss gravitational waves signature from primordial black hole formation.
 \end{abstract}
 
-\maketitle
 
 \section{Introduction and Summary}
 
-Recently \citet{2016arXiv160300464B} proposed that the recent LIGO
+Recently \cite{2016arXiv160300464B} proposed that the recent LIGO
 detections\cite{2016PhRvL.116f1102A,2016PhRvL.116x1103A} could be due
 to mergers of primordial black holes.  In this letter we examine the
 acoustic waves generated during this process, and show that they
@@ -71,18 +70,36 @@ with an amplitude $h\sim$, below current upper
 bounds\cite{2015PhRvD..91b2003A}, but which could in turn be detected
 by advanced LIGO.
 
+\section{Stochastic gravitational wave background}
+\begin{figure} \centering
+  \includegraphics[width=1.0\linewidth]{gw.eps}
+  \caption{\textbf{GW background.}
+}
+  \label{fig:gw}
+\end{figure}
+
+\section{Astronomical constraints}
+
+Various astronomical constraints have been
+proposed\cite{2016arXiv160706077C}. Most of these constraints are
+entangled in astrophysical uncertainties, including for example black
+hole accretion efficiencies, and baryonic feedback.  Gravitational
+waves are a physically clean and inevitable product of the formation
+process.
 
 
-\acknowledgments
 
-
+\begin{addendum}
+\item 
 This work is supported by the Canadian Government through the Canadian
 Institute for Advance Research and Industry Canada, and by Province of
 Ontario through the Ministry of Research and Innovation.
+\end{addendum}
 
 \appendix
 
 %\bibliographystyle{utcaps}
+\bibliographystyle{naturemag}
 \bibliography{pbh}
 
 

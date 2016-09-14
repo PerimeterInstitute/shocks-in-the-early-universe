@@ -1,0 +1,28 @@
+dev x11
+dev postencap gw.eps
+expand 1.5
+lweight 2
+set x=-8.8,-6,0.1
+set y=-10,-3
+set ub=4*(x+8.8)**2-8.5
+limits x y
+connect x ub
+ticksize -1 0 -1 0
+box
+xlabel frequency (Hz)
+ylabel \Omega_{GW}
+relocate -8.5 -6
+angle 80
+putlabel 3 EPTA
+angle 0
+set pbhx=<-8.3 -7.3>
+set pbhy=<-8.6 -8.6>
+ptype 16 0
+expand 8
+points pbhx pbhy
+expand 1.5
+relocate -7.3 -9
+putlabel 5 Baumann effect
+relocate -8.3 -9
+putlabel 5 shocks
+draw_arrow -7.3 -8.6 -8.3 -8.6
